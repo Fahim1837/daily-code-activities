@@ -1,0 +1,23 @@
+# Get the current Git branch
+current_branch=$(git rev-parse --abbrev-ref HEAD)
+
+# Get the last 5 Git commit messages
+commit_messages=$(git log -5 --pretty=format:"%h - %s")
+
+# Find the directory containing the .git folder
+git_directory=$(git rev-parse --show-toplevel)
+
+# Get the current time
+current_time=$(date)
+
+
+Work flows:
+
+1. Collect all the local information and save them to a local sh file (git_data.sh)
+2. Trigger the sh file whenever a commit is done. For this, add a post-commit file in the git directory of every working project
+3. Run a Python Script with this git_data.sh file and pass all the existing info to the python script
+4. The python script will contain a markdown (md) template which will be modified with existing data
+5. The modified data will be appended to the existing file
+6. After modification of the file, the control flow will again go back to git_data.sh
+7. This sh fill will now traverse to the activity folder, commit new messages and finally push the commit
+8. The program comes to an end
