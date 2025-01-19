@@ -130,5 +130,6 @@ if __name__ == "__main__":
         'current_branch': sys.argv[6]
     }
     
-    print(f"\n{GREEN}---------------Python File Running---------------{RESET}")
+    print(f"\n{GREEN}---------------Python Script Started---------------{RESET}\n")
     create_file(sys_args)
+    print(f"\n{GREEN}---------------Python Script Ended---------------{RESET}\n")

@@ -33,12 +33,20 @@ fi
 
 
 # Print the results
-# echo "Commit Number: $commit_id"
-# echo "Commit Message: $commit_message"
-# echo "Commit Description: $commit_description"
-# echo "Git Directory: $git_directory"
-# echo "Server Name: $server_name"
-# echo "Current Time: $current_time"
+echo "Commit Number: $commit_id"
+echo "Commit Message: $commit_message"
+echo "Commit Description: $commit_description"
+echo "Git Directory: $git_directory"
+echo "Server Name: $server_name"
 
 # Call the Python script with the collected data
+cd ~/Programming/Fahim/Daily\ Code\ Activites/daily-code-activities/
+echo $PWD
+workon daily-code-activities
 python ./scripts/create_file.py "$commit_id" "$commit_message" "$commit_description" "$git_directory" "$server_name" "$current_branch"
+
+
+echo $PWD
+git add .
+git commit -m "$commit_message"
+# git push origin main
