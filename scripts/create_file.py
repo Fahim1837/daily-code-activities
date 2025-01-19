@@ -1,5 +1,6 @@
 import sys, os
 from datetime import datetime, timedelta
+from jinja2 import Environment, FileSystemLoader, TemplateError
 
 RED = "\033[31m" 
 GREEN = "\033[32m"
@@ -36,9 +37,12 @@ def adjust_weekday(date: datetime):
         template_data['first_day'] = first_day.strftime("%d")
     else:
         template_data['first_day'] = first_day.strftime("%d %B")
+        
     template_data['last_day'] = last_day.strftime("%d %B")
     template_data['year'] = date.year
-
+    template_data['time'] = date.strftime("%I:%M %p")
+    template_data['date'] = date.strftime("%d %b")
+    
 def create_dir(dirname):
     try:
         # Check if the directory already exists
@@ -47,26 +51,73 @@ def create_dir(dirname):
             print(f"Directory '{dirname}' was created.")
         
         os.chdir(dirname)
-        print(f"Current working directory is now {os.getcwd()}")
+        # print(f"Current working directory is now {os.getcwd()}")
 
     except OSError as error:
         print(f"Error creating directory '{dirname}': {error}")
 
-def modify_templates(args):
-    print(os.getcwd())
+def create_md_files(data):
+    file_name = f"week-{data['week_number']}.md"
+    is_exist = os.path.exists(file_name)
+    print(file_name)
+    try:
+        if not os.path.exists(file_name):
+            f = open(file_name, "x")
+            content = modify_templates(data, is_exist)
+            f.write(content + "\n\n")
+            f.close()
+            print(f"{file_name} is created and written")
+        
+        is_exist = os.path.exists(file_name)
+        with open(file_name, 'a') as f:
+            content = modify_templates(data, is_exist)
+            f.write(content + "\n")
+            print(f"{file_name} is updated")
+        
+    except IOError as e:
+        print(f"{RED}Something is wrong: {e}{RESET}")
+        
+def modify_templates(data, is_exist):
+    content = ""
+    
+    # Setup the jinja2 environment
+    env = Environment (loader= FileSystemLoader( searchpath= '../templates/') )
+    try:
+        if not is_exist:
+            template = env.get_template('new_file_template.md')
+            content = template.render(data)
+
+        else:
+            template = env.get_template('existing_file_template.md')
+            content = template.render(data)
+            
+    except TemplateError as e:
+        print(f"{RED}Error: The template was not found. {e}{RESET}")
+    
+    except Exception as e:
+        print(f"{RED}An unexpected error occurred: {e}{RESET}")    
+    
+    return content
     
 def create_file(sys_args):
+    template_data['commit_id'] = sys_args['commit_id']
+    template_data['commit_message'] = sys_args['commit_message']
+    template_data['commit_description'] = sys_args['commit_description']
+    template_data['current_branch'] = sys_args['current_branch'] 
+    template_data['server_name'] = sys_args['server_name']
+    
     calculate_week_number(datetime.now())
     adjust_weekday(datetime.now())
     print(template_data)
     create_dir(sys_args['git_directory'])
-    modify_templates(template_data)
+    create_md_files(template_data)
+    # modify_templates(template_data)
 
     
 
 if __name__ == "__main__":
-    if len(sys.argv) != 6:
-        print("Usage: create_file.py <commit_id> <commit_message> <commit_description> <git_directory> <server_name>")
+    if len(sys.argv) != 7:
+        print("Usage: create_file.py <commit_id> <commit_message> <commit_description> <git_directory> <server_name> <current_branch>")
         sys.exit(1)
 
     # Unpack arguments
@@ -76,8 +127,8 @@ if __name__ == "__main__":
         'commit_description': sys.argv[3],
         'git_directory': sys.argv[4],
         'server_name': sys.argv[5],
-        # 'current_time': sys.argv[6]
+        'current_branch': sys.argv[6]
     }
     
-    print(f"\n{RED}---------------Python File Running---------------{RESET}")
+    print(f"\n{GREEN}---------------Python File Running---------------{RESET}")
     create_file(sys_args)
