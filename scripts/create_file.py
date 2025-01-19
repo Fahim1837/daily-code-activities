@@ -40,15 +40,28 @@ def adjust_weekday(date: datetime):
     template_data['year'] = date.year
 
 def create_dir(dirname):
-    pass
+    try:
+        # Check if the directory already exists
+        if not os.path.exists(dirname):
+            os.makedirs(dirname)
+            print(f"Directory '{dirname}' was created.")
+        
+        os.chdir(dirname)
+        print(f"Current working directory is now {os.getcwd()}")
 
+    except OSError as error:
+        print(f"Error creating directory '{dirname}': {error}")
+
+def modify_templates(args):
+    print(os.getcwd())
+    
 def create_file(sys_args):
     calculate_week_number(datetime.now())
     adjust_weekday(datetime.now())
     print(template_data)
-    create_dir(sys_args[4])
-    
-    
+    create_dir(sys_args['git_directory'])
+    modify_templates(template_data)
+
     
 
 if __name__ == "__main__":
