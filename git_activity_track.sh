@@ -42,7 +42,7 @@ echo "Server Name: $server_name"
 # Call the Python script with the collected data
 cd ~/Programming/Fahim/Daily\ Code\ Activites/daily-code-activities/
 echo $PWD
-workon daily-code-activities
+# workon daily-code-activities
 python ./scripts/create_file.py "$commit_id" "$commit_message" "$commit_description" "$git_directory" "$server_name" "$current_branch"
 
 
