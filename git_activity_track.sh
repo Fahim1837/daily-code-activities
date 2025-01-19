@@ -47,23 +47,11 @@ echo $PWD
 # echo $VERSION
 # pyenv activate daily-code-activities
 
-export PATH="$HOME/.pyenv/bin:$PATH"
-
-if command -v pyenv 1>/dev/null 2>&1; then
-    eval "$(pyenv init --path)"
-    eval "$(pyenv virtualenv-init -)"
-else
-    echo "pyenv is not installed or not found in PATH"
-    exit 1
-fi
-
-# Create virtual environment if it does not exist
-if ! pyenv versions | grep -q 'daily-code-activities'; then
-    pyenv virtualenv 3.11.10 daily-code-activities
-fi
 
 # Activate the virtual environment
-pyenv activate daily-code-activities
+source ~/.bashrc
+workon daily-code-activities
+# pyenv activate daily-code-activities
 
 python ./scripts/create_file.py "$commit_id" "$commit_message" "$commit_description" "$git_directory" "$server_name" "$current_branch"
 
