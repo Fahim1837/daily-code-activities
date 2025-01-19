@@ -42,9 +42,12 @@ echo "Server Name: $server_name"
 # Call the Python script with the collected data
 cd ~/Programming/Fahim/Daily\ Code\ Activites/daily-code-activities/
 echo $PWD
-pyenv shell 3.11
-VERSION=$(pyenv which python3.11)
-echo $VERSION
+# pyenv shell 3.11
+# VERSION=$(pyenv which python3.11)
+# echo $VERSION
+# pyenv activate daily-code-activities
+
+pyenv virtualenv 3.11.10 daily-code-activities
 pyenv activate daily-code-activities
 
 python ./scripts/create_file.py "$commit_id" "$commit_message" "$commit_description" "$git_directory" "$server_name" "$current_branch"
