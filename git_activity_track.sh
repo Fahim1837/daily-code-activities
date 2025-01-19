@@ -49,4 +49,4 @@ python ./scripts/create_file.py "$commit_id" "$commit_message" "$commit_descript
 echo $PWD
 git add .
 git commit -m "$commit_message"
-# git push origin main
+git push origin main
