@@ -14,7 +14,7 @@ commit_description=$(git log -1 --pretty=format:"%B")
 git_directory=$(git rev-parse --show-toplevel | sed 's#.*/##')
 
 # Get the current time
-current_time=$(LC_TIME=C date)
+# current_time=$(LC_TIME=C date "+%A %B %d, %Y %I:%M%p %z %Y")
 
 # Get the server name
 remote_url=$(git remote get-url origin)
@@ -33,12 +33,12 @@ fi
 
 
 # Print the results
-echo "Commit Number: $commit_id"
-echo "Commit Message: $commit_message"
-echo "Commit Description: $commit_description"
-echo "Git Directory: $git_directory"
-echo "Server Name: $server_name"
-echo "Current Time: $current_time"
+# echo "Commit Number: $commit_id"
+# echo "Commit Message: $commit_message"
+# echo "Commit Description: $commit_description"
+# echo "Git Directory: $git_directory"
+# echo "Server Name: $server_name"
+# echo "Current Time: $current_time"
 
 # Call the Python script with the collected data
-python ./scripts/create_file.py "$commit_id" "$commit_message" "$commit_description" "$git_directory" "$server_name" "$current_time"
+python ./scripts/create_file.py "$commit_id" "$commit_message" "$commit_description" "$git_directory" "$server_name"
