@@ -47,8 +47,8 @@ echo $PWD
 # echo $VERSION
 # pyenv activate daily-code-activities
 
-pyenv virtualenv 3.11.10 daily-code-activities
-pyenv activate daily-code-activities
+# pyenv virtualenv 3.11.10 daily-code-activities
+# pyenv activate daily-code-activities
 
 python ./scripts/create_file.py "$commit_id" "$commit_message" "$commit_description" "$git_directory" "$server_name" "$current_branch"
 
