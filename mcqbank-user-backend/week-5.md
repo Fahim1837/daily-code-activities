@@ -25,3 +25,23 @@
 - Return tokens if OTP verified during account creation
 - Return only a message if OTP verified during forgot password
 ---
+<div style="display: flex; justify-content: space-between; align-items:end;">
+  <div style="display:flex">
+      <img src="../assets/branch.svg" alt="GitHub Logo"  style="width:20px; margin:0 10px 0 0">
+      <h3 style="margin: 0; padding:0; font-weight: bold; font-size:20px;">fahim/feature/logout</h3>
+  </div>
+  <div style="display:flex">
+  <img src="../assets/github.svg" alt="GitHub Logo" style="width:20px">
+    <span style="color:rgb(16, 54, 226); text-align: right; margin:0 0 0 10px; padding:0px;">02 Feb, 2025 | 12:42 PM</span>
+  </div>
+</div>
+
+**_Commit:_** <code style="color: red; font-weight: bold;">613f4e9</code>
+**Message:** Logout API is partially completed
+**Description:**
+- Logout API is partially completed
+
+- Need Invalid Refresh Token to be  blacklisted
+- Create Login Sessions
+- HTTP Cookie must be implemented
+---
