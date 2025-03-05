@@ -54,3 +54,19 @@
 **Description:**
 - Custom Error Handler is used in the application
 ---
+<div style="display: flex; justify-content: space-between; align-items:end;">
+  <div style="display:flex">
+      <img src="../assets/branch.svg" alt="GitHub Logo"  style="width:20px; margin:0 10px 0 0">
+      <h3 style="margin: 0; padding:0; font-weight: bold; font-size:20px;">fahim/feature/custom-handler</h3>
+  </div>
+  <div style="display:flex">
+  <img src="../assets/github.svg" alt="GitHub Logo" style="width:20px">
+    <span style="color:rgb(16, 54, 226); text-align: right; margin:0 0 0 10px; padding:0px;">05 Mar, 2025 | 10:58 PM</span>
+  </div>
+</div>
+
+**_Commit:_** <code style="color: red; font-weight: bold;">15041d0</code>
+**Message:** Unique Validation Error Message is overwritten
+**Description:**
+- Unique Validation Error Message is overwritten
+---
