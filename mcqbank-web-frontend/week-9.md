@@ -178,3 +178,22 @@
 **Description:**
 - All types of error are structured
 ---
+<div style="display: flex; justify-content: space-between; align-items:end;">
+  <div style="display:flex">
+      <img src="../assets/branch.svg" alt="GitHub Logo"  style="width:20px; margin:0 10px 0 0">
+      <h3 style="margin: 0; padding:0; font-weight: bold; font-size:20px;">fahim/feature/login</h3>
+  </div>
+  <div style="display:flex">
+  <img src="../assets/github.svg" alt="GitHub Logo" style="width:20px">
+    <span style="color:rgb(16, 54, 226); text-align: right; margin:0 0 0 10px; padding:0px;">05 Mar, 2025 | 11:24 PM</span>
+  </div>
+</div>
+
+**_Commit:_** <code style="color: red; font-weight: bold;">1253c14</code>
+**Message:** Login Section Apparently Done
+**Description:**
+- Login Section Apparently Done
+
+-  Headers need to be set
+- Redirection to Dashboard on successful login need to be done
+---
