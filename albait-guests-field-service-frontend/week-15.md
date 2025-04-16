@@ -276,3 +276,48 @@ The whole files of selfie album is changed
 
 Evidence word is replaced by Selfie
 ---
+<div style="display: flex; justify-content: space-between; align-items:end;">
+  <div style="display:flex">
+      <img src="../assets/branch.svg" alt="GitHub Logo"  style="width:20px; margin:0 10px 0 0">
+      <h3 style="margin: 0; padding:0; font-weight: bold; font-size:20px;">HEAD</h3>
+  </div>
+  <div style="display:flex">
+  <img src="../assets/amazon.svg" alt="Amazon Logo" style="width:20px">
+    <span style="color:rgb(16, 54, 226); text-align: right; margin:0 0 0 10px; padding:0px;">16 Apr, 2025 | 04:07 PM</span>
+  </div>
+</div>
+
+**_Commit:_** <code style="color: red; font-weight: bold;">4cba367</code>
+**Message:** # This is a combination of 6 commits. # This is the 1st commit message:
+**Description:**
+- # This is a combination of 6 commits.
+# This is the 1st commit message:
+
+New translation added for selfie album
+
+# This is the commit message #2:
+
+New Folder Included for Selfie Album
+
+# This is the commit message #3:
+
+ Selfie Image Page updated
+
+ - New translations added
+ - Routed to Selfie Page
+ - Loading UI issue solved
+
+# This is the commit message #4:
+
+The whole files of selfie album is changed
+
+- All evidence word changed to selfie
+
+# This is the commit message #5:
+
+Evidence word is replaced by Selfie
+
+# This is the commit message #6:
+
+Changed the URL
+---
