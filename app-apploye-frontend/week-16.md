@@ -324,3 +324,22 @@
 **Description:**
 - Merge branch 'screenshot-all-notes' into staging
 ---
+<div style="display: flex; justify-content: space-between; align-items:end;">
+  <div style="display:flex">
+      <img src="../assets/branch.svg" alt="GitHub Logo"  style="width:20px; margin:0 10px 0 0">
+      <h3 style="margin: 0; padding:0; font-weight: bold; font-size:20px;">approval-accept-all</h3>
+  </div>
+  <div style="display:flex">
+  <img src="../assets/amazon.svg" alt="Amazon Logo" style="width:20px">
+    <span style="color:rgb(16, 54, 226); text-align: right; margin:0 0 0 10px; padding:0px;">23 Apr, 2025 | 11:34 AM</span>
+  </div>
+</div>
+
+**_Commit:_** <code style="color: red; font-weight: bold;">dd1db4ff</code>
+**Message:** Both accept and reject works well
+**Description:**
+- Both accept and reject works well
+
+- Small Issue on edge cases
+- Page reloads when a successful POST request
+---
