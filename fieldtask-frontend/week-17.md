@@ -105,3 +105,19 @@
 **Description:**
 - Small Changes mainly in selectedOrganization?.plan
 ---
+<div style="display: flex; justify-content: space-between; align-items:end;">
+  <div style="display:flex">
+      <img src="../assets/branch.svg" alt="GitHub Logo"  style="width:20px; margin:0 10px 0 0">
+      <h3 style="margin: 0; padding:0; font-weight: bold; font-size:20px;">FS-new-copy</h3>
+  </div>
+  <div style="display:flex">
+  <img src="../assets/amazon.svg" alt="Amazon Logo" style="width:20px">
+    <span style="color:rgb(16, 54, 226); text-align: right; margin:0 0 0 10px; padding:0px;">29 Apr, 2025 | 02:02 PM</span>
+  </div>
+</div>
+
+**_Commit:_** <code style="color: red; font-weight: bold;">0ddd23b</code>
+**Message:** Office Filter Added
+**Description:**
+- Office Filter Added
+---
