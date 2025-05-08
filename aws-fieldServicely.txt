@@ -1,0 +1,91 @@
+Tracking Information of Each of the PRs created for FieldServicely
+
+
+Pull Request No.: 476
+Date: 08/ 05/ 2025
+Time: 11:35 AM
+Title: Fs > Dashboard > Improvement needed with 'Today' and 'Work Order' section at top
+Repository Name: field-service-frontend
+Branch: dashoard-top-ui
+
+aws codecommit create-pull-request \
+--title "Fs > Dashboard > Improvement needed with 'Today' and 'Work Order' section at top" \
+--targets \
+repositoryName=field-service-frontend,\
+sourceReference=dashoard-top-ui,\
+destinationReference=dev
+
+
+Pull Request No.: 477
+Date: 08/ 05/ 2025
+Time: 11:36 AM
+Title: Fs > Import and Export icons are found similar
+Repository Name: field-service-frontend
+Branch: import-img
+
+aws codecommit create-pull-request \
+--title "Fs > Import and Export icons are found similar" \
+--targets \
+repositoryName=field-service-frontend,\
+sourceReference=import-img,\
+destinationReference=dev
+
+
+Pull Request No.: 478
+Date: 08/ 05/ 2025
+Time: 11:39 AM
+Title: Fs > Jobs > All Jobs > 'Next day' is found disabled but it does not need to be
+Repository Name: field-service-frontend
+Branch: next-day
+
+aws codecommit create-pull-request \
+--title "Fs > Jobs > All Jobs > 'Next day' is found disabled but it does not need to be" \
+--targets \
+repositoryName=field-service-frontend,\
+sourceReference=next-day,\
+destinationReference=dev
+
+
+Pull Request No.: 479
+Date: 08/ 05/ 2025
+Time: 11:43 AM
+Title: Fs > Customers > Import customer shows wrong total number
+Repository Name: field-service-frontend
+Branch: customer-count
+
+aws codecommit create-pull-request \
+--title "Fs > Customers > Import customer shows wrong total number" \
+--targets \
+repositoryName=field-service-frontend,\
+sourceReference=customer-count,\
+destinationReference=dev
+
+
+Pull Request No.: 480
+Date: 08/ 05/ 2025
+Time: 11:46 AM
+Title: Fs > Organization > 2 chr Initial avatar, avatar size, avatar selection
+Repository Name: field-service-frontend
+Branch: org-avatar
+
+aws codecommit create-pull-request \
+--title "Fs > Organization > 2 chr Initial avatar, avatar size, avatar selection" \
+--targets \
+repositoryName=field-service-frontend,\
+sourceReference=org-avatar,\
+destinationReference=dev
+
+
+Pull Request No.: 481
+Date: 08/ 05/ 2025
+Time: 11:50 AM
+Title: Fs > Dashboard > Date range information is shown in every box, make better UI
+Repository Name: field-service-frontend
+Branch: date-range
+
+aws codecommit create-pull-request \
+--title "Fs > Dashboard > Date range information is shown in every box, make better UI" \
+--targets \
+repositoryName=field-service-frontend,\
+sourceReference=date-range,\
+destinationReference=dev
