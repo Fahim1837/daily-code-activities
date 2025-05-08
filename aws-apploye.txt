@@ -1,11 +1,18 @@
-Tracking Information of Each of the PRs created for Apploye
+Tracking Information of Each of the PRs created for FieldServicely
 
-Commit No.: 01
-Date: 
-Title: Ap > Set cursor focused on first input field (where applicable)
+Pull Request No.: 481
+Date: 08/ 05/ 2025
+Time: 11:50 AM
+Title: ①Ap > Screen Records > Screen Records Settings from the Activity Settings page
 Repository Name: app-apploye-frontend
-Branch: 
+Branch: date-range
 
 aws codecommit create-pull-request \
---title "Ap > Set cursor focused on first input field (where applicable)" \
---targets repositoryName=app-apploye-frontend,sourceReference=cursor-focus,destinationReference=dev
+--title "①Ap > Screen Records > Screen Records Settings from the Activity Settings page" \
+--targets \
+repositoryName=app-apploye-frontend,\
+sourceReference=date-range,\
+destinationReference=dev
+
+
+①Ap > Screen Records > Screen Records Settings from the Activity Settings page
