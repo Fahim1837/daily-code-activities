@@ -41,3 +41,22 @@
 **Description:**
 - The Onboarding Members are brought into the dashboard page
 ---
+<div style="display: flex; justify-content: space-between; align-items:end;">
+  <div style="display:flex">
+      <img src="../assets/branch.svg" alt="GitHub Logo"  style="width:20px; margin:0 10px 0 0">
+      <h3 style="margin: 0; padding:0; font-weight: bold; font-size:20px;">onboarding</h3>
+  </div>
+  <div style="display:flex">
+  <img src="../assets/amazon.svg" alt="Amazon Logo" style="width:20px">
+    <span style="color:rgb(16, 54, 226); text-align: right; margin:0 0 0 10px; padding:0px;">09 May, 2025 | 11:35 AM</span>
+  </div>
+</div>
+
+**_Commit:_** <code style="color: red; font-weight: bold;">f83e4f0</code>
+**Message:** Member Onboarding Modal works fine
+**Description:**
+- Member Onboarding Modal works fine
+
+- Bring in the Customers to this modal
+- Include next and close buttons here
+---
