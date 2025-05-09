@@ -79,3 +79,19 @@
 - Needs a Modal
 - Needs to add the list to the main list
 ---
+<div style="display: flex; justify-content: space-between; align-items:end;">
+  <div style="display:flex">
+      <img src="../assets/branch.svg" alt="GitHub Logo"  style="width:20px; margin:0 10px 0 0">
+      <h3 style="margin: 0; padding:0; font-weight: bold; font-size:20px;">onboarding</h3>
+  </div>
+  <div style="display:flex">
+  <img src="../assets/amazon.svg" alt="Amazon Logo" style="width:20px">
+    <span style="color:rgb(16, 54, 226); text-align: right; margin:0 0 0 10px; padding:0px;">09 May, 2025 | 03:20 PM</span>
+  </div>
+</div>
+
+**_Commit:_** <code style="color: red; font-weight: bold;">6b52abd</code>
+**Message:** Next and close button working fine... Need to refurnish them using Customers too
+**Description:**
+- Next and close button working fine... Need to refurnish them using Customers too
+---
