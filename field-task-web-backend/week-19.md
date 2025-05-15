@@ -92,3 +92,19 @@
 
 - Create customers is redesigned
 ---
+<div style="display: flex; justify-content: space-between; align-items:end;">
+  <div style="display:flex">
+      <img src="../assets/branch.svg" alt="GitHub Logo"  style="width:20px; margin:0 10px 0 0">
+      <h3 style="margin: 0; padding:0; font-weight: bold; font-size:20px;">customer-location</h3>
+  </div>
+  <div style="display:flex">
+  <img src="../assets/amazon.svg" alt="Amazon Logo" style="width:20px">
+    <span style="color:rgb(16, 54, 226); text-align: right; margin:0 0 0 10px; padding:0px;">15 May, 2025 | 11:22 AM</span>
+  </div>
+</div>
+
+**_Commit:_** <code style="color: red; font-weight: bold;">f47f837</code>
+**Message:** location delete and create will have new office_locations
+**Description:**
+- location delete and create will have new office_locations
+---
