@@ -89,3 +89,19 @@
 **Description:**
 - All workorder will take on calendar name as its name...
 ---
+<div style="display: flex; justify-content: space-between; align-items:end;">
+  <div style="display:flex">
+      <img src="../assets/branch.svg" alt="GitHub Logo"  style="width:20px; margin:0 10px 0 0">
+      <h3 style="margin: 0; padding:0; font-weight: bold; font-size:20px;">ghl-calendar</h3>
+  </div>
+  <div style="display:flex">
+  <img src="../assets/amazon.svg" alt="Amazon Logo" style="width:20px">
+    <span style="color:rgb(16, 54, 226); text-align: right; margin:0 0 0 10px; padding:0px;">29 May, 2025 | 04:19 PM</span>
+  </div>
+</div>
+
+**_Commit:_** <code style="color: red; font-weight: bold;">82b71b5</code>
+**Message:** manual Sync works somewhat... Needs better testing
+**Description:**
+- manual Sync works somewhat... Needs better testing
+---
