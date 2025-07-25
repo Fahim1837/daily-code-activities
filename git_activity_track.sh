@@ -49,10 +49,11 @@ echo $PWD
 
 
 # Activate the virtual environment
-source ~/.bashrc
-workon daily-code-activities
+# source ~/.bashrc
+# workon daily-code-activities
 # pyenv activate daily-code-activities
 
+source ./.venv/bin/activate
 python ./scripts/create_file.py "$commit_id" "$commit_message" "$commit_description" "$git_directory" "$server_name" "$current_branch"
 
 
