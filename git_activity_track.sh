@@ -40,7 +40,7 @@ echo "Git Directory: $git_directory"
 echo "Server Name: $server_name"
 
 # Call the Python script with the collected data
-cd ~/Programming/Fahim/Daily\ Code\ Activites/daily-code-activities/
+cd ~/Programming/Daily\ Code\ Activites/daily-code-activities/
 echo $PWD
 # pyenv shell 3.11
 # VERSION=$(pyenv which python3.11)
