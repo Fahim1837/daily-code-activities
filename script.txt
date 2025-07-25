@@ -21,3 +21,6 @@ Work flows:
 6. After modification of the file, the control flow will again go back to git_data.sh
 7. This sh fill will now traverse to the activity folder, commit new messages and finally push the commit
 8. The program comes to an end
+
+
+Testing file
