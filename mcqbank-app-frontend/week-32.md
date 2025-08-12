@@ -143,3 +143,24 @@
 - Default Photo not fixed yet
 - env_url need to be removed during necessity
 ---
+<div style="display: flex; justify-content: space-between; align-items:end;">
+  <div style="display:flex">
+      <img src="../assets/branch.svg" alt="GitHub Logo"  style="width:20px; margin:0 10px 0 0">
+      <h3 style="margin: 0; padding:0; font-weight: bold; font-size:20px;">fahim/feature/cover-photo</h3>
+  </div>
+  <div style="display:flex">
+  <img src="../assets/github.svg" alt="GitHub Logo" style="width:20px">
+    <span style="color:rgb(16, 54, 226); text-align: right; margin:0 0 0 10px; padding:0px;">12 Aug, 2025 | 09:41 PM</span>
+  </div>
+</div>
+
+**_Commit:_** <code style="color: red; font-weight: bold;">dbe8bd6</code>
+**Message:** Slider added in the Profile Upload Image
+**Description:**
+- Slider added in the Profile Upload Image
+
+- Preview Button need to be added
+- Slider Functionality need to be added
+- Preview Image need to be shown
+- Save button functionality need to be added
+---
