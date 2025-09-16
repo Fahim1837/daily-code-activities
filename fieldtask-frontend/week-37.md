@@ -635,3 +635,48 @@ Replacing all isoweek with week
 
 Instead of fixed values, these are now sent as params
 ---
+<div style="display: flex; justify-content: space-between; align-items:end;">
+  <div style="display:flex">
+      <img src="../assets/branch.svg" alt="GitHub Logo"  style="width:20px; margin:0 10px 0 0">
+      <h3 style="margin: 0; padding:0; font-weight: bold; font-size:20px;">HEAD</h3>
+  </div>
+  <div style="display:flex">
+  <img src="../assets/github.svg" alt="GitHub Logo" style="width:20px">
+    <span style="color:rgb(16, 54, 226); text-align: right; margin:0 0 0 10px; padding:0px;">18 Sep, 2025 | 11:18 AM</span>
+  </div>
+</div>
+
+**_Commit:_** <code style="color: red; font-weight: bold;">39dca6a</code>
+**Message:** Settings icon enabled
+**Description:**
+- Settings icon enabled
+
+Both Date and Start of Week feature included in the settings page
+
+Both Date_Format and Start_of_the_Week is set and removed in the localStorage
+
+date format is available in all the dates
+
+date_format storage is updated the moment, settings is changed
+
+Date Format is fixed
+
+- Location UI fixed
+- Week Config Added
+
+Starting Day of week applied for single date
+
+- React Date Ranger Picker is made a functional component
+
+Date_Format is centralized to SingleDatePicker and RangeDatePicker
+
+- week name is placed in the weekConfig file
+
+Weekly DateRangePicker Working Fine
+
+Replacing all isoweek with week
+
+Instead of fixed values, these are now sent as params
+
+Rewrote the Week Start Day just like Apploye
+---
