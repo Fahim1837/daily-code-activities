@@ -302,3 +302,37 @@ new: role filter selection preserved
 
 update: selflabelbadge to show underline only under name text, not badge
 ---
+<div style="display: flex; justify-content: space-between; align-items:end;">
+  <div style="display:flex">
+      <img src="../assets/branch.svg" alt="GitHub Logo"  style="width:20px; margin:0 10px 0 0">
+      <h3 style="margin: 0; padding:0; font-weight: bold; font-size:20px;">HEAD</h3>
+  </div>
+  <div style="display:flex">
+  <img src="../assets/github.svg" alt="GitHub Logo" style="width:20px">
+    <span style="color:rgb(16, 54, 226); text-align: right; margin:0 0 0 10px; padding:0px;">09 Oct, 2025 | 09:26 AM</span>
+  </div>
+</div>
+
+**_Commit:_** <code style="color: red; font-weight: bold;">c0096fdf</code>
+**Message:** new: added role filter, showed tooltip and members count
+**Description:**
+- new: added role filter, showed tooltip and members count
+
+new: role badge, live indicator shown in members page
+
+update: showed role filter only for active members tab
+
+update: showed ... while loading, members count,  fix: box width
+
+fix: no r ecords shown after delete invitation
+
+fix: pagination show in invited tab, search label in different pages
+
+update: filter width
+
+new: role filter selection preserved
+
+update: selflabelbadge to show underline only under name text, not badge
+
+removed console log
+---
