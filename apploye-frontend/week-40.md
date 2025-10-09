@@ -29,3 +29,30 @@ new: added role filter, showed tooltip and members count
 
 new: role badge, live indicator shown in members page
 ---
+<div style="display: flex; justify-content: space-between; align-items:end;">
+  <div style="display:flex">
+      <img src="../assets/branch.svg" alt="GitHub Logo"  style="width:20px; margin:0 10px 0 0">
+      <h3 style="margin: 0; padding:0; font-weight: bold; font-size:20px;">HEAD</h3>
+  </div>
+  <div style="display:flex">
+  <img src="../assets/github.svg" alt="GitHub Logo" style="width:20px">
+    <span style="color:rgb(16, 54, 226); text-align: right; margin:0 0 0 10px; padding:0px;">09 Oct, 2025 | 09:26 AM</span>
+  </div>
+</div>
+
+**_Commit:_** <code style="color: red; font-weight: bold;">b4e6b90c</code>
+**Message:** # This is a combination of 3 commits. # This is the 1st commit message:
+**Description:**
+- # This is a combination of 3 commits.
+# This is the 1st commit message:
+
+new: added role filter, showed tooltip and members count
+
+# This is the commit message #2:
+
+new: role badge, live indicator shown in members page
+
+# This is the commit message #3:
+
+update: showed role filter only for active members tab
+---
