@@ -806,3 +806,19 @@
 **Description:**
 - Refactor Dropdown to accept dynamic options and update Invoice container styles
 ---
+<div style="display: flex; justify-content: space-between; align-items:end;">
+  <div style="display:flex">
+      <img src="../assets/branch.svg" alt="GitHub Logo"  style="width:20px; margin:0 10px 0 0">
+      <h3 style="margin: 0; padding:0; font-weight: bold; font-size:20px;">fahim/invoice-design</h3>
+  </div>
+  <div style="display:flex">
+  <img src="../assets/github.svg" alt="GitHub Logo" style="width:20px">
+    <span style="color:rgb(16, 54, 226); text-align: right; margin:0 0 0 10px; padding:0px;">16 Jan, 2026 | 05:09 PM</span>
+  </div>
+</div>
+
+**_Commit:_** <code style="color: red; font-weight: bold;">287d24829</code>
+**Message:** Invoice List Page is now according to the design
+**Description:**
+- Invoice List Page is now according to the design
+---
