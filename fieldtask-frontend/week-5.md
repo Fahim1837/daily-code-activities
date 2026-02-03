@@ -104,3 +104,21 @@ Some Ui's are fixed. Maximum are at faulty
 **Description:**
 - The List Section of Unscheduled Job is fixed
 ---
+<div style="display: flex; justify-content: space-between; align-items:end;">
+  <div style="display:flex">
+      <img src="../assets/branch.svg" alt="GitHub Logo"  style="width:20px; margin:0 10px 0 0">
+      <h3 style="margin: 0; padding:0; font-weight: bold; font-size:20px;">fahim/shift-schedule</h3>
+  </div>
+  <div style="display:flex">
+  <img src="../assets/github.svg" alt="GitHub Logo" style="width:20px">
+    <span style="color:rgb(16, 54, 226); text-align: right; margin:0 0 0 10px; padding:0px;">03 Feb, 2026 | 09:48 AM</span>
+  </div>
+</div>
+
+**_Commit:_** <code style="color: red; font-weight: bold;">3b0b90838</code>
+**Message:** The dropping is working on the Unscheduled Job Section.
+**Description:**
+- The dropping is working on the Unscheduled Job Section.
+
+However, it is not workable yet. Issues with Success States and Failure Messages
+---
