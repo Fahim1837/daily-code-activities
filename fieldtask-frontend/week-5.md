@@ -250,3 +250,19 @@ However, it is not workable yet. Issues with Success States and Failure Messages
 **Description:**
 - Attendance Responsiveness is almost done. Need extra data to validate it
 ---
+<div style="display: flex; justify-content: space-between; align-items:end;">
+  <div style="display:flex">
+      <img src="../assets/branch.svg" alt="GitHub Logo"  style="width:20px; margin:0 10px 0 0">
+      <h3 style="margin: 0; padding:0; font-weight: bold; font-size:20px;">fahim/responsive-issue</h3>
+  </div>
+  <div style="display:flex">
+  <img src="../assets/github.svg" alt="GitHub Logo" style="width:20px">
+    <span style="color:rgb(16, 54, 226); text-align: right; margin:0 0 0 10px; padding:0px;">05 Feb, 2026 | 10:30 AM</span>
+  </div>
+</div>
+
+**_Commit:_** <code style="color: red; font-weight: bold;">2d9e3c80d</code>
+**Message:** Some parts of client table is fixed. Most are remaining yet
+**Description:**
+- Some parts of client table is fixed. Most are remaining yet
+---
