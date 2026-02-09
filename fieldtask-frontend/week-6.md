@@ -88,3 +88,19 @@
 **Description:**
 - Edit job is working correctly. But it is not optimized yet.
 ---
+<div style="display: flex; justify-content: space-between; align-items:end;">
+  <div style="display:flex">
+      <img src="../assets/branch.svg" alt="GitHub Logo"  style="width:20px; margin:0 10px 0 0">
+      <h3 style="margin: 0; padding:0; font-weight: bold; font-size:20px;">fahim/line-item-dropdown</h3>
+  </div>
+  <div style="display:flex">
+  <img src="../assets/github.svg" alt="GitHub Logo" style="width:20px">
+    <span style="color:rgb(16, 54, 226); text-align: right; margin:0 0 0 10px; padding:0px;">09 Feb, 2026 | 02:59 PM</span>
+  </div>
+</div>
+
+**_Commit:_** <code style="color: red; font-weight: bold;">038a864ce</code>
+**Message:** New set of reducers are created for job Line Item. This will not call a repeat GET request after a line Item is created updated or deleted making the app faster
+**Description:**
+- New set of reducers are created for job Line Item. This will not call a repeat GET request after a line Item is created updated or deleted making the app faster
+---
