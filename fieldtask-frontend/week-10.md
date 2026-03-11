@@ -589,3 +589,26 @@ Made it orange
 **Description:**
 - API is fixed. Need to test data for every cases now
 ---
+<div style="display: flex; justify-content: space-between; align-items:end;">
+  <div style="display:flex">
+      <img src="../assets/branch.svg" alt="GitHub Logo"  style="width:20px; margin:0 10px 0 0">
+      <h3 style="margin: 0; padding:0; font-weight: bold; font-size:20px;">fahim/dashboard-issue</h3>
+  </div>
+  <div style="display:flex">
+  <img src="../assets/github.svg" alt="GitHub Logo" style="width:20px">
+    <span style="color:rgb(16, 54, 226); text-align: right; margin:0 0 0 10px; padding:0px;">11 Mar, 2026 | 12:12 PM</span>
+  </div>
+</div>
+
+**_Commit:_** <code style="color: red; font-weight: bold;">ab659456e</code>
+**Message:** feat: Enhance Dropdown and NoDataComponent with improved positioning and additional features
+**Description:**
+- feat: Enhance Dropdown and NoDataComponent with improved positioning and additional features
+
+- Updated ThreeDotDropdown to use a portal for rendering the dropdown menu, allowing for better positioning and visibility control.
+- Added logic to determine whether the dropdown should open above or below the trigger icon based on available space.
+- Enhanced NoDataComponent to include optional subtitle and button for user actions, improving user engagement when no data is available.
+- Updated various components to provide better user feedback and interaction options, including adding buttons for creating new entries in empty states across Clients, Products, and Jobs sections.
+- Refactored Invoice components to improve user experience, including conditional rendering of buttons based on invoice status.
+- Improved styling and layout consistency across components, ensuring a more cohesive design.
+---
