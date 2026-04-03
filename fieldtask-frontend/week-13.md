@@ -38,3 +38,22 @@
 **Description:**
 - Due Value less than 0 is fixed to 0
 ---
+<div style="display: flex; justify-content: space-between; align-items:end;">
+  <div style="display:flex">
+      <img src="../assets/branch.svg" alt="GitHub Logo"  style="width:20px; margin:0 10px 0 0">
+      <h3 style="margin: 0; padding:0; font-weight: bold; font-size:20px;">fahim/product-sync</h3>
+  </div>
+  <div style="display:flex">
+  <img src="../assets/github.svg" alt="GitHub Logo" style="width:20px">
+    <span style="color:rgb(16, 54, 226); text-align: right; margin:0 0 0 10px; padding:0px;">03 Apr, 2026 | 02:30 PM</span>
+  </div>
+</div>
+
+**_Commit:_** <code style="color: red; font-weight: bold;">f5f7f6fae</code>
+**Message:** Parser and Sync Button Added
+**Description:**
+- Parser and Sync Button Added
+
+- Parser added for description
+- GHL Sync Button added for Product Sync
+---
