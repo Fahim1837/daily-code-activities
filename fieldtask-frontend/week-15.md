@@ -409,3 +409,19 @@ Some Issues
 **Description:**
 - Merge branch 'fahim/shift-schedule' into staging
 ---
+<div style="display: flex; justify-content: space-between; align-items:end;">
+  <div style="display:flex">
+      <img src="../assets/branch.svg" alt="GitHub Logo"  style="width:20px; margin:0 10px 0 0">
+      <h3 style="margin: 0; padding:0; font-weight: bold; font-size:20px;">fahim/urgent-issue-solve</h3>
+  </div>
+  <div style="display:flex">
+  <img src="../assets/github.svg" alt="GitHub Logo" style="width:20px">
+    <span style="color:rgb(16, 54, 226); text-align: right; margin:0 0 0 10px; padding:0px;">17 Apr, 2026 | 11:26 AM</span>
+  </div>
+</div>
+
+**_Commit:_** <code style="color: red; font-weight: bold;">4effdde57</code>
+**Message:** Hovering Effect on Top Card is removed
+**Description:**
+- Hovering Effect on Top Card is removed
+---
