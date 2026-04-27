@@ -481,3 +481,23 @@
 **Description:**
 - Sync Button Added. Need some fixes after data is obtained
 ---
+<div style="display: flex; justify-content: space-between; align-items:end;">
+  <div style="display:flex">
+      <img src="../assets/branch.svg" alt="GitHub Logo"  style="width:20px; margin:0 10px 0 0">
+      <h3 style="margin: 0; padding:0; font-weight: bold; font-size:20px;">fahim/map-issue</h3>
+  </div>
+  <div style="display:flex">
+  <img src="../assets/github.svg" alt="GitHub Logo" style="width:20px">
+    <span style="color:rgb(16, 54, 226); text-align: right; margin:0 0 0 10px; padding:0px;">27 Apr, 2026 | 11:28 AM</span>
+  </div>
+</div>
+
+**_Commit:_** <code style="color: red; font-weight: bold;">26880cc55</code>
+**Message:** Jobs In Map working as intended
+**Description:**
+- Jobs In Map working as intended
+
+- Has Unscheduled Job
+- Date Range is disabled for unscheduled job
+- Only jobs with Location are loaded
+---
