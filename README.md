@@ -1,2 +1,2 @@
-# daily-code-activities
+# git-commit-tracker
 A repository to track daily activities including coding, documentation, and study tasks.
