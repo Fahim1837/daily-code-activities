@@ -2544,3 +2544,19 @@
 **Description:**
 - Buttons for Client is fixed
 ---
+<div style="display: flex; justify-content: space-between; align-items:end;">
+  <div style="display:flex">
+      <img src="../assets/branch.svg" alt="GitHub Logo"  style="width:20px; margin:0 10px 0 0">
+      <h3 style="margin: 0; padding:0; font-weight: bold; font-size:20px;">HEAD</h3>
+  </div>
+  <div style="display:flex">
+  <img src="../assets/github.svg" alt="GitHub Logo" style="width:20px">
+    <span style="color:rgb(16, 54, 226); text-align: right; margin:0 0 0 10px; padding:0px;">11 Jun, 2026 | 11:49 AM</span>
+  </div>
+</div>
+
+**_Commit:_** <code style="color: red; font-weight: bold;">c7b5ee1b8</code>
+**Message:** Invoice Table Page Almost Done. 1 or 2 fixes needed yet
+**Description:**
+- Invoice Table Page Almost Done. 1 or 2 fixes needed yet
+---
